@@ -1,0 +1,43 @@
+.calculator {
+    padding: 10px;
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    background-color: rgb(7, 51, 73);
+    border-radius: 3em;
+    
+}
+
+.display-box {
+    background-color: rgb(62, 177, 226);
+    border: solid black;
+    border-radius: 5px;
+    width: 90%;
+    height: 65%;
+    color: black;
+}
+#btn {
+    background-color: rgb(145, 23, 23);
+    width: 120px;
+}
+#btn:hover {
+    background-color: darkblue;
+}
+
+input[type=button] {
+    width: 70px;
+    height: 50px;
+    background-color: rgb(183, 225, 31);
+    border-style: initial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 30px;
+    
+}
+input[type=button]:hover{
+    background-color: crimson;
+
+
+}
+input:active[type=button] {
+    background: #5e5e5e;
+}
